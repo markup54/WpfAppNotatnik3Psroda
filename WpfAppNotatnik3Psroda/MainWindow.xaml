@@ -9,8 +9,8 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="plik">
-                <MenuItem Header="Nowy"/>
-                <MenuItem Header="Otwórz"/>
+                <MenuItem Header="Nowy" Click="MenuItem_Click"/>
+                <MenuItem Header="Otwórz" Click="MenuItem_Click_1"/>
                 <Separator/>
                 <MenuItem Header="Zapisz"/>
                 <MenuItem Header="Zapisz jako.."/>
@@ -43,7 +43,7 @@
                 <MenuItem Header="O autorze" Click="MenuItem_Click_Autor"></MenuItem>
             </MenuItem>
         </Menu>
-        <TextBox>
+        <TextBox x:Name="tekst">
             
         </TextBox>
     </DockPanel>
